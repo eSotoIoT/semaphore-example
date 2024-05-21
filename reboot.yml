@@ -1,0 +1,3 @@
+- hosts: devices
+  roles:
+  - reboot_devices

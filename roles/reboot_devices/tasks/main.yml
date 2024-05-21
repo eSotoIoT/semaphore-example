@@ -1,0 +1,3 @@
+- name: Unconditionally reboot the machine
+  ansible.builtin.reboot:
+    reboot_timeout: 12000
